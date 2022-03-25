@@ -96,3 +96,15 @@ class roman_numbers_should(unittest.TestCase):
 
         # Act
         self.assertEqual(expected_output, output)
+
+    def test_return_III_when_3(self):
+
+        # Arrange
+        input_int = 3
+        expected_output = "III"
+
+        # Act
+        output = roman_numbers().roman(input_int=input_int)
+
+        # Act
+        self.assertEqual(expected_output, output)
