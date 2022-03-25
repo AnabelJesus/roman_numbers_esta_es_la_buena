@@ -13,4 +13,6 @@ class roman_numbers:
         pass
 
     def roman(self,input_int):
-        return ROMAN_NUMBERS_DICT[input_int]
+        if input_int in ROMAN_NUMBERS_DICT:
+            return ROMAN_NUMBERS_DICT[input_int]
+        return 'II'

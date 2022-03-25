@@ -16,7 +16,6 @@ class roman_numbers_should(unittest.TestCase):
         # Act
         self.assertEqual(expected_output, output)
 
-
     def test_return_V_when_5(self):
 
         # Arrange
@@ -79,6 +78,18 @@ class roman_numbers_should(unittest.TestCase):
         # Arrange
         input_int = 1000
         expected_output = "M"
+
+        # Act
+        output = roman_numbers().roman(input_int=input_int)
+
+        # Act
+        self.assertEqual(expected_output, output)
+
+    def test_return_II_when_2(self):
+
+        # Arrange
+        input_int = 2
+        expected_output = "II"
 
         # Act
         output = roman_numbers().roman(input_int=input_int)
