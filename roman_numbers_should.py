@@ -11,7 +11,7 @@ class roman_numbers_should(unittest.TestCase):
         expected_output = "I"
 
         # Act
-        output = roman_numbers().roman(input=input_int)
+        output = roman_numbers().roman(input_int=input_int)
 
         # Act
         self.assertEqual(expected_output, output)
@@ -24,7 +24,7 @@ class roman_numbers_should(unittest.TestCase):
         expected_output = "V"
 
         # Act
-        output = roman_numbers().roman(input=input_int)
+        output = roman_numbers().roman(input_int=input_int)
 
         # Act
         self.assertEqual(expected_output, output)
@@ -36,7 +36,7 @@ class roman_numbers_should(unittest.TestCase):
         expected_output = "X"
 
         # Act
-        output = roman_numbers().roman(input=input_int)
+        output = roman_numbers().roman(input_int=input_int)
 
         # Act
         self.assertEqual(expected_output, output)
@@ -48,7 +48,7 @@ class roman_numbers_should(unittest.TestCase):
         expected_output = "L"
 
         # Act
-        output = roman_numbers().roman(input=input_int)
+        output = roman_numbers().roman(input_int=input_int)
 
         # Act
         self.assertEqual(expected_output, output)
