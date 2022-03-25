@@ -3,7 +3,8 @@ ROMAN_NUMBERS_DICT = {1:'I',
                       10:'X',
                       50:'L',
                       100:'C',
-                      500:'D'}
+                      500:'D',
+                      1000:'M'}
 
 
 class roman_numbers:
